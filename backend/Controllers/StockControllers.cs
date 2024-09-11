@@ -56,5 +56,18 @@ namespace backend.Controllers{
             _context.SaveChanges();
             return Ok(stockModel.ToStockDto());
         }
+        [HttpDelete]
+        [Route("{id}")]
+        public IActionResult Delete([FromRoute] int id){
+            var stockModel=_context.stocks.FirstOrDefault(x=>x.Id==id);
+            if(stockModel!=null){
+                _context.stocks.Remove(stockModel);
+                _context.SaveChanges();
+                return NoContent();
+            }else{
+                return NotFound();
+            }
+        }
+    
     }
 }

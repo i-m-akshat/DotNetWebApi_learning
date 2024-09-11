@@ -135,3 +135,4 @@ A:\asp.net Projects\APi Projects Learning\backend\bin\Debug\net8.0\runtimes\win\
 A:\asp.net Projects\APi Projects Learning\backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 A:\asp.net Projects\APi Projects Learning\backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 A:\asp.net Projects\APi Projects Learning\backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+A:\asp.net Projects\APi Projects Learning\backend\obj\Debug\net8.0\backend.sourcelink.json
